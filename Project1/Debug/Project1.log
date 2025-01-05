@@ -1,7 +1,4 @@
 ﻿  win32_platform.cpp
-C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(44,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'win32_platform.cpp')
-  
 C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(45,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
@@ -11,7 +8,8 @@ C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(46,9):
 C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(47,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(48,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
 C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(56,5): warning C4007: 'WinMain': must be '__stdcall'
-C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(113,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(113,19): warning C4305: 'argument': truncation from 'double' to 'float'
   Project1.vcxproj -> C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Debug\Project1.exe
