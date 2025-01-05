@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC98492D-C374-491E-9033-D14B0CC1AC1F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\game.cpp",
               "RelativeDocumentMoniker": "Project1\\game.cpp",
               "ToolTip": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\game.cpp",
               "RelativeToolTip": "Project1\\game.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvyAAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-05T16:13:55.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "platform_common.cpp",
               "DocumentMoniker": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\platform_common.cpp",
               "RelativeDocumentMoniker": "Project1\\platform_common.cpp",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "utils.cpp",
               "DocumentMoniker": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\utils.cpp",
               "RelativeDocumentMoniker": "Project1\\utils.cpp",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "renderer.cpp",
               "DocumentMoniker": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\renderer.cpp",
               "RelativeDocumentMoniker": "Project1\\renderer.cpp",
@@ -100,14 +100,14 @@
               "RelativeDocumentMoniker": "Project1\\win32_platform.cpp",
               "ToolTip": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\win32_platform.cpp",
               "RelativeToolTip": "Project1\\win32_platform.cpp",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAQwHAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-04T19:24:28.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\gamin\\OneDrive\\Documents\\GitHub\\project1.0\\Project1\\main.cpp",
               "RelativeDocumentMoniker": "Project1\\main.cpp",
