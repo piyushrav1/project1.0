@@ -10,9 +10,12 @@ enum
 	BUTTON_DOWN,
 	BUTTON_LEFT,
 	BUTTON_RIGHT,
+
+
+	BUTTON_COUNT, //should be the last element in the enum to count
 };
 
 struct Input
 {
-	Button_State buttons[4];
+	Button_State buttons[BUTTON_COUNT];
 };

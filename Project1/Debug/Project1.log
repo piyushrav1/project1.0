@@ -1,17 +1,17 @@
 ﻿  win32_platform.cpp
-Z:\VStudioGameDevC++\repos\Project1\Project1\renderer.cpp(44,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(44,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-Z:\VStudioGameDevC++\repos\Project1\Project1\renderer.cpp(45,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(45,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-Z:\VStudioGameDevC++\repos\Project1\Project1\renderer.cpp(46,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(46,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-Z:\VStudioGameDevC++\repos\Project1\Project1\renderer.cpp(47,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\renderer.cpp(47,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-Z:\VStudioGameDevC++\repos\Project1\Project1\win32_platform.cpp(54,5): warning C4007: 'WinMain': must be '__stdcall'
-Z:\VStudioGameDevC++\repos\Project1\Project1\win32_platform.cpp(83,24): warning C4305: 'argument': truncation from 'double' to 'float'
-Z:\VStudioGameDevC++\repos\Project1\Project1\win32_platform.cpp(83,19): warning C4305: 'argument': truncation from 'double' to 'float'
-  Project1.vcxproj -> Z:\VStudioGameDevC++\repos\Project1\Debug\Project1.exe
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(56,5): warning C4007: 'WinMain': must be '__stdcall'
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(113,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Project1\win32_platform.cpp(113,19): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project1.vcxproj -> C:\Users\gamin\OneDrive\Documents\GitHub\project1.0\Debug\Project1.exe
