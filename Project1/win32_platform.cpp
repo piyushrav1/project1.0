@@ -73,6 +73,17 @@ int WinMain( HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCm
 
 	Input input = {};
 
+	float delta_time = 0.016666f;
+	LARGE_INTEGER frame_begin_time;
+	QueryPerformanceCounter(&frame_begin_time);
+
+	float performance_frequency;
+	{
+		LARGE_INTEGER perf;
+		QueryPerformanceFrequency(&perf);
+		performance_frequency = (float)perf.QuadPart;
+	}
+
 
 	while (running) {
 		//input
@@ -86,16 +97,22 @@ int WinMain( HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCm
 			switch (message.message) {
 				case WM_KEYUP:
 				case WM_KEYDOWN: {
-					u32 VKCode = (u32)message.wParam;
+					u32 vk_code = (u32)message.wParam;
 					bool is_down = ((message.lParam & (1 << 31)) == 0);
 
-					switch (VKCode)
-					{
-					case VK_UP: {
-						input.buttons[BUTTON_UP].is_down = is_down;
-						input.buttons[BUTTON_UP].changed = true;
-					} break;
+#define process_button(b, vk)            \
+    case vk: {                           \
+        input.buttons[b].is_down = is_down; \
+        input.buttons[b].changed = true; \
+    } break;
+
+					switch (vk_code) {
+						process_button(BUTTON_UP, VK_UP);
+						process_button(BUTTON_DOWN, VK_DOWN);
+						process_button(BUTTON_LEFT, VK_LEFT);
+						process_button(BUTTON_RIGHT, VK_RIGHT);
 					}
+
 
 				} break;
 				default: {
@@ -108,10 +125,14 @@ int WinMain( HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCm
 
 		//stimulate
 		
-		simulate_game(&input);
+		simulate_game(&input, delta_time);
 			
 		//render
 		StretchDIBits(hdc, 0, 0, render_state.width,render_state.height,0 ,0, render_state.width, render_state.height, render_state.memory, &render_state.bitmap_info,DIB_RGB_COLORS, SRCCOPY);
 
+	LARGE_INTEGER frame_end_time;
+	QueryPerformanceCounter(&frame_end_time);
+	delta_time = (float)(frame_end_time.QuadPart - frame_begin_time.QuadPart) / performance_frequency;
+	frame_begin_time = frame_end_time;
 	 }
 }
